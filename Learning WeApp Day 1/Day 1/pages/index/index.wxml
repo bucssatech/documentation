@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="counter">
+    <text class="counter-text">{{count}}</text>
+  </view>
+  <view class="button">
+    Click To Add
+  </view>
+</view>

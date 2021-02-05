@@ -1,0 +1,6 @@
+<view class="answer-box">
+  {{answer}}
+</view>
+<div id="container">
+  <div class="item" wx:for="{{cells}}" bindtap="click" data-id="{{item}}">{{item}}</div>
+</div>
