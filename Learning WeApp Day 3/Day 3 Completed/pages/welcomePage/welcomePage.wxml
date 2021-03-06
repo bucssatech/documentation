@@ -1,0 +1,7 @@
+<!--pages/welcomePage.wxml-->
+<view wx:if="{{!visited}}" class="welcomeText">
+  welcome
+</view>
+<view class="button" bindtap="toCalculator">
+  click to start
+</view>

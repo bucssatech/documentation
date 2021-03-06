@@ -1,0 +1,28 @@
+/* pages/welcomePage.wxss */
+.welcomeText{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  height: 100rpx;
+  width: 550rpx;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 80rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.button{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  height: 100rpx;
+  width: 550rpx;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgb(170, 199, 253);
+  font-size: 80rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10rpx;
+  color: white;
+}
